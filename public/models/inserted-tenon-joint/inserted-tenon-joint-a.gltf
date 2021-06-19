@@ -1,0 +1,262 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 695fff5264e3b00eaca24d3119e0b5e4c864ae29",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 132,
+            "type": "VEC3",
+            "max": [
+                1.776356799695581e-17,
+                -2.775557396126769e-18,
+                0.05999999865889549
+            ],
+            "min": [
+                -0.05999999865889549,
+                -0.17999999225139619,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 132,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 132,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 132,
+            "type": "SCALAR",
+            "max": [
+                131.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 1584,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1584,
+            "byteLength": 1584,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3168,
+            "byteLength": 1056,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4224,
+            "byteLength": 528,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 4752,
+            "uri": "inserted-tenon-joint-a_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.00001010907089948887,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "light_oak_reconstituted_quarter_cut_00_baseColor",
+            "uri": "inserted-tenon-joint-a_images/light_oak_reconstituted_quarter_cut_00_baseColor.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "image_image",
+            "uri": "inserted-tenon-joint-a_images/image_image.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "light_oak_reconstituted_quarter_cut_00_normal",
+            "uri": "inserted-tenon-joint-a_images/light_oak_reconstituted_quarter_cut_00_normal.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0,
+                    "extensions": {
+                        "KHR_texture_transform": {
+                            "offset": [
+                                -0.9999999403953552,
+                                0.9999996423721312
+                            ],
+                            "rotation": 1.570796012878418,
+                            "scale": [
+                                1,
+                                1
+                            ]
+                        }
+                    }
+                },
+                "metallicRoughnessTexture": {
+                    "index": 1,
+                    "extensions": {
+                        "KHR_texture_transform": {
+                            "offset": [
+                                -0.9999999403953552,
+                                0.9999996423721312
+                            ],
+                            "rotation": 1.570796012878418,
+                            "scale": [
+                                1,
+                                1
+                            ]
+                        }
+                    }
+                }
+            },
+            "normalTexture": {
+                "index": 2,
+                "extensions": {
+                    "KHR_texture_transform": {
+                        "offset": [
+                            -0.9999999403953552,
+                            0.9999996423721312
+                        ],
+                        "rotation": 1.570796012878418,
+                        "scale": [
+                            1,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "Light Oak Wood",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "body",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.5299999713897705,
+                0.29999998211860659,
+                0.5915666818618774
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                0.07620001584291458,
+                4.0574466453335847e-8,
+                -0.22859996557235719
+            ],
+            "rotation": [
+                -0.7071067690849304,
+                -6.18172535382655e-8,
+                3.820367196286914e-15,
+                0.7071068286895752
+            ],
+            "scale": [
+                2.5399997234344484,
+                2.5399997234344484,
+                2.5399997234344484
+            ],
+            "mesh": 0,
+            "name": "body"
+        }
+    ],
+    "samplers": [
+        {},
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "light_oak_reconstituted_quarter_cut_00_material::baseColor::image",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "image_image",
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "name": "light_oak_reconstituted_quarter_cut_00_material::normal::image",
+            "sampler": 2,
+            "source": 2
+        }
+    ],
+    "scene": 0,
+    "extensionsUsed": [
+        "KHR_texture_transform"
+    ],
+    "extensionsRequired": [
+        "KHR_texture_transform"
+    ]
+}
